@@ -2,14 +2,14 @@
 @section('title', 'Contact')
 
 @section('main-content')
-    
+
     <!-- main-area -->
     <main>
 
         <!--==============================
         Breadcrumb Area
         ==============================-->
-        <section class="breadcrumb__area fix" data-background="{{ asset('assets/img/bg/breadcrumb-bg.png') }}">
+        <section class="breadcrumb__area fix" data-background="{{ asset('frontend/assets/img/bg/breadcrumb-bg.png') }}">
             <div class="breadcrumb__bg-shape"></div>
             <div class="container">
                 <div class="row align-items-center">
@@ -89,7 +89,7 @@
             <div class="container">
                 <div class="contact-info-wrap">
                     <div class="contact-info-thumb">
-                        <img src="{{ asset('assets/img/others/contact-page1-1.jpg') }}" alt="img">
+                        <img src="{{ asset('frontend/assets/img/others/contact-page1-1.jpg') }}" alt="img">
                     </div>
                     <ul class="list-wrap">
                         <li>

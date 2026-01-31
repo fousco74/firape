@@ -26,4 +26,11 @@ class MainController extends Controller
         $menu = "contact";
         return view('frontend.contact', compact('menu'));
     }
+    public function about()
+    {
+        $menu = "about";
+        return view('frontend.about', compact('menu'));
+    }
+
+
 }

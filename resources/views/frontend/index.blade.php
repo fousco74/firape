@@ -14,7 +14,7 @@
                 "autoHeight ": "true " }'>
 
                 <div class="swiper-wrapper ">
-                    <div class="swiper-slide " data-background="{{asset('public/assets/img/hero/slide1.jpeg') }} ">
+                    <div class="swiper-slide " data-background="{{asset('frontend/assets/img/hero/slide1.jpeg') }} ">
                         {{-- <div class="hero-bg-shape1-1 "></div>
                         <div class="hero-bg-shape1-2 "></div> --}}
                         <div class="container ">
@@ -40,7 +40,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide " data-background="{{asset('public/assets/img/hero/slide5.jpeg') }} ">
+                    <div class="swiper-slide " data-background="{{asset('frontend/assets/img/hero/slide5.jpeg') }} ">
                         {{-- <div class="hero-bg-shape1-1 "></div>
                         <div class="hero-bg-shape1-2 "></div> --}}
                         <div class="container ">
@@ -66,7 +66,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide " data-background="{{ asset('public/assets/img/hero/slide3.jpeg') }} ">
+                    <div class="swiper-slide " data-background="{{ asset('frontend/assets/img/hero/slide3.jpeg') }} ">
                         {{-- <div class="hero-bg-shape1-1 "></div> --}}
                         {{-- <div class="hero-bg-shape1-2 "></div> --}}
                         <div class="container ">
@@ -103,7 +103,7 @@
     Feature Area
     ==============================-->
     <section class="feature-area-1 overflow-hidden ">
-        <div class="feature-wrap1 pt-120 pb-120 " data-background="{{ asset('public/assets/img/bg/feature-bg1-1.png') }}">
+        <div class="feature-wrap1 pt-120 pb-120 " data-background="{{ asset('frontend/assets/img/bg/feature-bg1-1.png') }}">
             <div class="container ">
                 <div class="row justify-content-center ">
                     <div class="col-xl-8 col-lg-9 ">
@@ -269,7 +269,7 @@
                         <div class="about-thumb1-1 ">
                             <div class="img1 ">
                                 <div class="thumb image-anim ">
-                                    <img src="{{ asset('public/assets/img/others/about1-1.jpg') }} " alt="img ">
+                                    <img src="{{ asset('frontend/assets/img/others/about1-1.jpg') }} " alt="img ">
                                 </div>
                             </div>
                             <div class="about-experience-wrap movingX ">
@@ -468,7 +468,7 @@
                             <p class="box-text ">Global business landscape continues to evolve at an unprecedented pace, the role of the consultancy company...</p>
                         </div>
                         <div class="box-img image-anim ">
-                            <img src="public/assets/img/service/service-img-1-1.jpg " alt="img ">
+                            <img src="assets/img/service/service-img-1-1.jpg " alt="img ">
                             <div class="tg-button-wrap ">
                                 <a href="service-details.html " class="btn btn-three ">
                                     <span class="btn-text " data-text="Read More Details "></span>
@@ -518,7 +518,7 @@
                             <p class="box-text ">Global business landscape continues to evolve at an unprecedented pace, the role of the consultancy company...</p>
                         </div>
                         <div class="box-img image-anim ">
-                            <img src="public/assets/img/service/service-img-1-2.jpg " alt="img ">
+                            <img src="assets/img/service/service-img-1-2.jpg " alt="img ">
                             <div class="tg-button-wrap ">
                                 <a href="service-details.html " class="btn btn-three ">
                                     <span class="btn-text " data-text="Read More Details "></span>
@@ -572,7 +572,7 @@
                             <p class="box-text ">Global business landscape continues to evolve at an unprecedented pace, the role of the consultancy company...</p>
                         </div>
                         <div class="box-img image-anim ">
-                            <img src="public/assets/img/service/service-img-1-3.jpg " alt="img ">
+                            <img src="assets/img/service/service-img-1-3.jpg " alt="img ">
                             <div class="tg-button-wrap ">
                                 <a href="service-details.html " class="btn btn-three ">
                                     <span class="btn-text " data-text="Read More Details "></span>
@@ -637,7 +637,7 @@
                     <div class="team-card ">
                         <div class="box-img image-anim ">
                             <a href="team-details.html " class="thumb ">
-                                <img src="public/assets/img/team/team-1-1.jpg " alt="img ">
+                                <img src="assets/img/team/team-1-1.jpg " alt="img ">
                             </a>
                             <div class="team-social ">
                                 <button class="icon-btn "><i class="fas fa-share-alt "></i></button>
@@ -664,7 +664,7 @@
                     <div class="team-card ">
                         <div class="box-img image-anim ">
                             <a href="team-details.html " class="thumb ">
-                                <img src="public/assets/img/team/team-1-2.jpg " alt="img ">
+                                <img src="assets/img/team/team-1-2.jpg " alt="img ">
                             </a>
                             <div class="team-social ">
                                 <button class="icon-btn "><i class="fas fa-share-alt "></i></button>
@@ -691,7 +691,7 @@
                     <div class="team-card ">
                         <div class="box-img image-anim ">
                             <a href="team-details.html " class="thumb ">
-                                <img src="public/assets/img/team/team-1-3.jpg " alt="img ">
+                                <img src="assets/img/team/team-1-3.jpg " alt="img ">
                             </a>
                             <div class="team-social ">
                                 <button class="icon-btn "><i class="fas fa-share-alt "></i></button>
@@ -727,9 +727,9 @@
             <div class="row gx-40 gy-5 justify-content-center align-items-center ">
                 <div class="col-xl-6 ">
                     <div class="goal-thumb1-1 image-anim ">
-                        <div class="img-bg-shape " data-mask-src="public/assets/img/others/goal-img-mask1-2.png "></div>
-                        <div class="thumb " data-mask-src="public/assets/img/others/goal-img-mask1-1.png ">
-                            <img src="public/assets/img/others/goal1-1.png " alt="img ">
+                        <div class="img-bg-shape " data-mask-src="assets/img/others/goal-img-mask1-2.png "></div>
+                        <div class="thumb " data-mask-src="assets/img/others/goal-img-mask1-1.png ">
+                            <img src="assets/img/others/goal1-1.png " alt="img ">
                         </div>
                     </div>
                 </div>
@@ -892,7 +892,7 @@
                         <div class="swiper-slide ">
                             <div class="project-card image-anim ">
                                 <div class="project-thumb ">
-                                    <img src="public/assets/img/project/project1-1.jpg " alt="img ">
+                                    <img src="assets/img/project/project1-1.jpg " alt="img ">
                                 </div>
                                 <div class="project-card-details ">
                                     <span class="project-subtitle ">IT Solution</span>
@@ -903,7 +903,7 @@
                         <div class="swiper-slide ">
                             <div class="project-card image-anim ">
                                 <div class="project-thumb ">
-                                    <img src="public/assets/img/project/project1-2.jpg " alt="img ">
+                                    <img src="assets/img/project/project1-2.jpg " alt="img ">
                                 </div>
                                 <div class="project-card-details ">
                                     <span class="project-subtitle ">Business Solution</span>
@@ -914,7 +914,7 @@
                         <div class="swiper-slide ">
                             <div class="project-card image-anim ">
                                 <div class="project-thumb ">
-                                    <img src="public/assets/img/project/project1-3.jpg " alt="img ">
+                                    <img src="assets/img/project/project1-3.jpg " alt="img ">
                                 </div>
                                 <div class="project-card-details ">
                                     <span class="project-subtitle ">Financial Solution</span>
@@ -925,7 +925,7 @@
                         <div class="swiper-slide ">
                             <div class="project-card image-anim ">
                                 <div class="project-thumb ">
-                                    <img src="public/assets/img/project/project1-4.jpg " alt="img ">
+                                    <img src="assets/img/project/project1-4.jpg " alt="img ">
                                 </div>
                                 <div class="project-card-details ">
                                     <span class="project-subtitle ">Business Growth</span>
@@ -936,7 +936,7 @@
                         <div class="swiper-slide ">
                             <div class="project-card image-anim ">
                                 <div class="project-thumb ">
-                                    <img src="public/assets/img/project/project1-1.jpg " alt="img ">
+                                    <img src="assets/img/project/project1-1.jpg " alt="img ">
                                 </div>
                                 <div class="project-card-details ">
                                     <span class="project-subtitle ">IT Solution</span>
@@ -947,7 +947,7 @@
                         <div class="swiper-slide ">
                             <div class="project-card image-anim ">
                                 <div class="project-thumb ">
-                                    <img src="public/assets/img/project/project1-2.jpg " alt="img ">
+                                    <img src="assets/img/project/project1-2.jpg " alt="img ">
                                 </div>
                                 <div class="project-card-details ">
                                     <span class="project-subtitle ">Business Solution</span>
@@ -958,7 +958,7 @@
                         <div class="swiper-slide ">
                             <div class="project-card image-anim ">
                                 <div class="project-thumb ">
-                                    <img src="public/assets/img/project/project1-3.jpg " alt="img ">
+                                    <img src="assets/img/project/project1-3.jpg " alt="img ">
                                 </div>
                                 <div class="project-card-details ">
                                     <span class="project-subtitle ">Financial Solution</span>
@@ -969,7 +969,7 @@
                         <div class="swiper-slide ">
                             <div class="project-card image-anim ">
                                 <div class="project-thumb ">
-                                    <img src="public/assets/img/project/project1-4.jpg " alt="img ">
+                                    <img src="assets/img/project/project1-4.jpg " alt="img ">
                                 </div>
                                 <div class="project-card-details ">
                                     <span class="project-subtitle ">Business Growth</span>
@@ -997,7 +997,7 @@
                 <div class="col-xl-4 col-md-6 ">
                     <div class="blog__post-item blog__post-item-two blog__post-item-three ">
                         <div class="blog__post-thumb image-anim ">
-                            <a href="blog-details.html "><img src="public/assets/img/blog/1-1.jpg " alt="img "></a>
+                            <a href="blog-details.html "><img src="assets/img/blog/1-1.jpg " alt="img "></a>
                             <div class="blog__post-date ">15 <span>Jan</span></div>
                         </div>
                         <div class="blog__post-content ">
@@ -1015,7 +1015,7 @@
                 <div class="col-xl-4 col-md-6 ">
                     <div class="blog__post-item blog__post-item-two blog__post-item-three ">
                         <div class="blog__post-thumb image-anim ">
-                            <a href="blog-details.html "><img src="public/assets/img/blog/1-2.jpg " alt="img "></a>
+                            <a href="blog-details.html "><img src="assets/img/blog/1-2.jpg " alt="img "></a>
                             <div class="blog__post-date ">20 <span>FEB</span></div>
                         </div>
                         <div class="blog__post-content ">
@@ -1034,7 +1034,7 @@
                 <div class="col-xl-4 col-md-6 ">
                     <div class="blog__post-item blog__post-item-two blog__post-item-three ">
                         <div class="blog__post-thumb image-anim ">
-                            <a href="blog-details.html "><img src="public/assets/img/blog/1-3.jpg " alt="img "></a>
+                            <a href="blog-details.html "><img src="assets/img/blog/1-3.jpg " alt="img "></a>
                             <div class="blog__post-date ">05 <span>JUN</span></div>
                         </div>
                         <div class="blog__post-content ">

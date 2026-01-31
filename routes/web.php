@@ -11,6 +11,9 @@ Route::get('/', [MainController::class, 'index'])->name('index');
 Route::prefix('main')->name('main.')->group(function () {
     Route::get('/index', [MainController::class, 'index'])->name('index');
     Route::get('/contact', [MainController::class, 'contact'])->name('contact');
+    Route::get('/about', [MainController::class, 'about'])->name('about');
+
+
     // Route::get('/liste_exercice', [AdminController::class, 'liste_exercice'])->name('exercice');
     // Route::get('/liste_trimestre', [AdminController::class, 'liste_trimestre'])->name('trimestre');
     // Route::post('/create_exercice', [AdminController::class, 'create_exercice'])->name('create_exercice');

@@ -11,7 +11,7 @@
     <div id="preloader" class="white-bg">
         <div id="loader" class="loader">
             <div class="loader-container">
-                <div class="loader-icon"><img src="{{ asset('./public/frontend/assets/img/firape/firape.png') }}" alt="Preloader"></div>
+                <div class="loader-icon"><img src="{{ asset('frontend/assets/img/firape/firape.png') }}" alt="Preloader"></div>
             </div>
         </div>
     </div>

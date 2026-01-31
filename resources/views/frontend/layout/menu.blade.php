@@ -5,17 +5,17 @@
                     <div class="tgmenu__wrap">
                         <nav class="tgmenu__nav">
                             {{-- <div class="logo d-lg-none d-block">
-                                <a href="{{ route('main.index') }}"><img src="public/frontend/assets/img/logo/logo.svg" alt="Logo"></a>
+                                <a href="{{ route('main.index') }}"><img src="frontend/assets/img/logo/logo.svg" alt="Logo"></a>
                             </div> --}}
                             @if($menu <> "accueil")
                                 <div class="logo">
-                                    <a href="index.html"><img src="{{ asset('public/frontend/assets/img/firape/firape.png') }}" alt="Logo" style="width: 70px;"></a>
+                                    <a href="index.html"><img src="{{ asset('frontend/assets/img/firape/firape.png') }}" alt="Logo" style="width: 70px;"></a>
                                 </div>
                                 <div class="logo">
-                                    <a href="index.html"><img src="{{ asset('public/frontend/assets/img/firape/carp.png') }}" alt="Logo" style="width: 70px; margin-left: 10px;"></a>
+                                    <a href="index.html"><img src="{{ asset('frontend/assets/img/firape/carp.png') }}" alt="Logo" style="width: 70px; margin-left: 10px;"></a>
                                 </div>
                                 <div class="logo">
-                                    <a href="index.html"><img src="{{ asset('public/frontend/assets/img/firape/federation1.png') }}" alt="Logo" style="width: 70px; margin-left: 10px;"></a>
+                                    <a href="index.html"><img src="{{ asset('frontend/assets/img/firape/federation1.png') }}" alt="Logo" style="width: 70px; margin-left: 10px;"></a>
                                 </div>
                             @endif
 
@@ -26,7 +26,7 @@
 
                                     <li class="menu-item-has-children "><a href="javascript:void(0) ">QUI SOMMES-NOUS ?</a>
                                         <ul class="sub-menu ">
-                                            <li class="active"><a href="#">Présentation</a></li>
+                                            <li class="active"><a href="{{ route('main.about') }}">Présentation</a></li>
                                             <li><a href="#">Mot de la présidente</a></li>
                                             <li><a href="#">Objectifs</a></li>
                                             <li><a href="team.html">Membres</a></li>
@@ -91,7 +91,7 @@
         <nav class="tgmobile__menu-box ">
             <div class="close-btn "><i class="fas fa-times "></i></div>
             <div class="nav-logo ">
-                <a href="index.html "><img src="public/frontend/assets/assets/img/logo/logo.svg " alt="Logo "></a>
+                <a href="index.html "><img src="frontend/assets/assets/img/logo/logo.svg " alt="Logo "></a>
             </div>
             <div class="tgmobile__menu-outer ">
                 <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
@@ -132,7 +132,7 @@
         </div>
         <div class="appointment-wrap2 ">
             <div class="appointment-thumb2 d-lg-block d-none ">
-                <img src="public/frontend/assets/assets/img/others/appointment2-1.png " alt="img ">
+                <img src="frontend/assets/assets/img/others/appointment2-1.png " alt="img ">
             </div>
             <div class="row justify-content-end ">
                 <div class="col-lg-6 ">

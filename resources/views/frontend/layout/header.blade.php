@@ -41,13 +41,13 @@
                     <div class="tgmenu__wrap">
                         <nav class="tgmenu__nav">
                             <div class="logo">
-                                <a href="index.html"><img src="{{ asset('public/frontend/assets/img/firape/firape.png') }}" alt="Logo" style="width: 70px;"></a>
+                                <a href="/"><img src="{{ asset('frontend/assets/img/firape/firape.png') }}" alt="Logo" style="width: 70px;"></a>
                             </div>
                             <div class="logo">
-                                <a href="index.html"><img src="{{ asset('public/frontend/assets/img/firape/carp.png') }}" alt="Logo" style="width: 70px; margin-left: 10px;"></a>
+                                <a href="/"><img src="{{ asset('frontend/assets/img/firape/carp.png') }}" alt="Logo" style="width: 70px; margin-left: 10px;"></a>
                             </div>
                             <div class="logo">
-                                <a href="index.html"><img src="{{ asset('public/frontend/assets/img/firape/federation1.png') }}" alt="Logo" style="width: 70px; margin-left: 10px;"></a>
+                                <a href="/"><img src="{{ asset('frontend/assets/img/firape/federation1.png') }}" alt="Logo" style="width: 70px; margin-left: 10px;"></a>
                             </div>
                             <div class="info-card-wrap">
                                 <div class="info-card">
