@@ -1,146 +1,229 @@
 @extends('frontend.layout.master')
-@section('title', 'Contact')
+@section('title', 'A PROPOS')
 
 @section('main-content')
 
     <!-- main-area -->
-     <main>
+    <main>
 
         <!--==============================
     Breadcrumb Area
     ==============================-->
-        <section class="breadcrumb__area fix" data-background="assets/img/bg/breadcrumb-bg.png">
+    <section class="breadcrumb__area fix" data-background="assets/img/bg/breadcrumb-bg.png">
             <div class="breadcrumb__bg-shape"></div>
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-xl-6">
                         <div class="breadcrumb__content">
-                            <h3 class="title">About Us</h3>
+                            <h3 class="title">Qui sommes nous ?</h3>
                         </div>
                     </div>
                     <div class="col-xl-6">
                         <div class="breadcrumb-wrap">
                             <nav class="breadcrumb">
                                 <span property="itemListElement" typeof="ListItem">
-                                    <a href="index.html">Home</a>
+                                    <a href="index.html">Accueil</a>
                                 </span>
                                 <span class="breadcrumb-separator">/</span>
-                                <span property="itemListElement" typeof="ListItem">About Us</span>
+                                <span property="itemListElement" typeof="ListItem">A propos</span>
                             </nav>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+    </section>
         <!-- breadcrumb-area-end -->
 
         <!--==============================
     About Area
     ==============================-->
-        <section class="about-area-2 pt-120 pb-120 overflow-hidden">
-            <div class="container">
-                <div class="about-wrap2">
-                    <div class="row gx-60 gy-5 align-items-center">
-                        <div class="col-xl-6">
-                            <div class="about-thumb2-1">
-                                <div class="img1">
-                                    <div class="thumb image-anim">
-                                        <img src="assets/img/others/about2-1.jpg" alt="img">
-                                    </div>
-                                </div>
-                                <div class="img2">
-                                    <div class="thumb image-anim">
-                                        <img src="assets/img/others/about2-2.jpg" alt="img">
-                                    </div>
-                                </div>
-                                <div class="about-bg-shape2-1">
-                                    <div class="shape1"></div>
-                                    <div class="shape2"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-6">
-                            <div class="section__title">
-                                <span class="sub-title text-anim">About Amazing Company</span>
-                                <h2 class="title text-anim2">We’re Trusted Professional
-                                    Consultancy Company
-                                </h2>
-                            </div>
-                            <p class="mt-30 mb-40">The business consultancy company stands as a stalwart beacon of guidance and innovation, offering a multifaceted array of services tailored to propel enterprises toward their zenith. At its core, this entity operates as a bastion of strategic insight, employing a cadre of seasoned professionals.</p>
-                            <div class="checklist-wrap">
-                                <ul class="list-wrap">
-                                    <li>
-                                        <span class="icon">
-                                            <i class="fas fa-check-circle"></i>
-                                        </span>
-                                        Remain flexible and adaptive to swiftly respond to changing market dynamics and client needs.
-                                    </li>
-                                    <li>
-                                        <span class="icon">
-                                            <i class="fas fa-check-circle"></i>
-                                        </span>
-                                        Empower clients through knowledge transfer, skill-building, and fostering a culture of self-sufficiency.
-                                    </li>
-                                    <li>
-                                        <span class="icon">
-                                            <i class="fas fa-check-circle"></i>
-                                        </span>
-                                        Facilitate a culture of ongoing learning and refinement to ensure sustained success and growth.
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="cta-link">Call to ask any question <a href="tel:52537561523">+525-3756-1523</a></div>
-                            <div class="tg-button-wrap mt-30">
-                                <a href="appointment.html" class="btn">
-                                    <span class="btn-text" data-text="Make An Appointment"></span>
-                                </a>
-                                <a href="service.html" class="btn btn-six">
-                                    <span class="btn-text" data-text="View Our Services"></span>
-                                </a>
+    <section id="presentation" class="about-area-2 pt-120  overflow-hidden">
+        <div class="container">
+            <div class="row gx-0 gy-5 align-items-center">
+
+                <div class="col-xl-6">
+                    <div class="about-thumb2-1">
+                        <div class="img1">
+                            <div class="thumb image-anim">
+                                <img src="{{ asset('frontend/assets/img/others/about2-1.jpg') }}" alt="Présentation CARP">
                             </div>
                         </div>
                     </div>
                 </div>
+
+                <div class="col-xl-6">
+                    <div class="section__title">
+                        <span class="sub-title text-anim">Qui sommes-nous ?</span>
+                        <h2 class="title text-anim2">
+                            Confédération Africaine de Rugby de Pétanque (CARP)
+                        </h2>
+                    </div>
+
+                    <p class="mt-30 mb-40">
+                        La Confédération Africaine de Rugby de Pétanque (CARP) est une organisation
+                        sportive panafricaine dédiée à la promotion, à l’encadrement et au
+                        développement de la pétanque en Afrique.  
+                        Elle œuvre pour l’unité, la formation et la structuration des fédérations
+                        membres sur le continent.
+                    </p>
+                </div>
+
             </div>
-        </section>
+        </div>
+    </section>
+
         <!--======== / About Section ========-->
 
         <!--==============================
-    Counter Area
+    mot-presidente
     ==============================-->
-        <section class="counter-area-1 pb-120 pt-120 pt-xl-0">
+    <!-- <section id="mot-presidente" class="about-area-2  pb-80 bg-gray">
             <div class="container">
-                <div class="row gy-30 justify-content-center">
-                    <div class="col-lg-4 col-md-6">
-                        <div class="counter-card">
-                            <h3 class="counter-card_title"><span class="counter-number">35</span></h3>
-                            <p class="counter-card_subtitle">Years Of Experience</p>
-                            <p class="counter-card_text">Central to the consultancy's modus operandi is a commitment...</p>
+                <div class="row gx-60 gy-5 align-items-center">
+
+                    {{-- TEXTE --}}
+                    <div class="col-xl-6">
+                        <div class="section__title">
+                            <span class="sub-title text-anim">Message officiel</span>
+                            <h2 class="title text-anim2">
+                                Mot de la Présidente
+                            </h2>
+                        </div>
+
+                        <p class="mt-30">
+                            Chers membres, partenaires et passionnés de sport,
+                        </p>
+
+                        <p class="mt-20">
+                            C’est avec un profond engagement et un sens élevé des responsabilités
+                            que je m’adresse à vous au nom de la Confédération Africaine de Rugby
+                            de Pétanque (CARP). Notre organisation incarne une vision ambitieuse :
+                            faire de la pétanque un véritable levier de cohésion, de fraternité
+                            et de développement sportif sur l’ensemble du continent africain.
+                        </p>
+
+                        <p class="mt-20">
+                            La CARP œuvre sans relâche pour structurer, promouvoir et renforcer
+                            la pratique de la pétanque à travers des actions de formation,
+                            d’accompagnement des fédérations nationales et d’organisation
+                            de compétitions de haut niveau. Notre ambition est de bâtir une
+                            institution forte, inclusive et tournée vers l’avenir.
+                        </p>
+
+                        <p class="mt-20">
+                            Je tiens à exprimer ma gratitude à l’ensemble des acteurs qui
+                            contribuent à cette dynamique collective. Ensemble, nous continuerons
+                            à porter haut les valeurs du sport, de l’excellence et de l’unité
+                            africaine.
+                        </p>
+
+                        <p class="mt-30 fw-bold">
+                            La Présidente  
+                            <br>
+                            <span class="text-theme">Confédération Africaine de Rugby de Pétanque</span>
+                        </p>
+                    </div>
+
+                    {{-- PHOTO --}}
+                    <div class="col-xl-6">
+                        <div class="about-thumb2-1 text-center">
+                            <div class="img1">
+                                <div class="thumb image-anim">
+                                    <img 
+                                        src="{{ asset('frontend/assets/img/team/presidente.jpg') }}" 
+                                        alt="Présidente de la CARP"
+                                        style="max-width: 420px; border-radius: 12px;"
+                                    >
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="counter-card">
-                            <h3 class="counter-card_title"><span class="counter-number">500</span>+</h3>
-                            <p class="counter-card_subtitle">Official Project Completed</p>
-                            <p class="counter-card_text">Central to the consultancy's modus operandi is a commitment...</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="counter-card">
-                            <h3 class="counter-card_title"><span class="counter-number">396</span>+</h3>
-                            <p class="counter-card_subtitle">In-House Team Members</p>
-                            <p class="counter-card_text">Central to the consultancy's modus operandi is a commitment...</p>
-                        </div>
-                    </div>
+
                 </div>
             </div>
-        </section>
-        <!--======== / Counter Section ========-->
+    </section> -->
+
+        <!--======== / mot-presidente ========-->
+
+        <!------Nos Objectifs----->
+        <!--==============================-->
+    <section id="objectifs" class="about-area  pb-80">
+            <div class="container">
+                <div class="row align-items-center">
+
+                    <!-- IMAGE -->
+                    <div class="col-lg-6">
+                        <div class="about-img text-center"
+                            data-aos="fade-right"
+                            data-aos-delay="300">
+                            <img src="{{ asset('frontend/assets/img/about/objectifs.jpg') }}"
+                                alt="Objectifs FIRAPE"
+                                class="img-fluid rounded">
+                        </div>
+                    </div>
+
+                    <!-- TEXTE --> 
+                    <div class="col-lg-6">
+                        <div class="about-content"
+                            data-aos="fade-left"
+                            data-aos-delay="100">
+
+                            <div class="section-title mb-30">
+                                <span class="sub-title"
+                                    data-aos="fade-up"
+                                    data-aos-delay="200">
+                                    Notre mission
+                                </span>
+
+                                <h2 class="title"
+                                    data-aos="fade-up"
+                                    data-aos-delay="300">
+                                    Nos Objectifs
+                                </h2>
+                            </div>
+
+                            <p data-aos="fade-up" data-aos-delay="400">
+                                La Fédération Ivoirienne de Randonnée Pédestre et du Bien-être pour Tous (F.I.RA.PE)
+                                œuvre pour la promotion de la randonnée pédestre comme activité sportive,
+                                éducative et de bien-être accessible à tous.
+                            </p>
+
+                            <ul class="about-list list-wrap mt-20">
+                                <li data-aos="fade-up" data-aos-delay="500">
+                                    <i class="fas fa-check-circle"></i>
+                                    Promouvoir la pratique de la randonnée pédestre en Côte d’Ivoire
+                                </li>
+                                <li data-aos="fade-up" data-aos-delay="550">
+                                    <i class="fas fa-check-circle"></i>
+                                    Encourager le sport pour tous et le bien-être physique et mental
+                                </li>
+                                <li data-aos="fade-up" data-aos-delay="600">
+                                    <i class="fas fa-check-circle"></i>
+                                    Structurer et encadrer les clubs et associations de randonnée
+                                </li>
+                                <li data-aos="fade-up" data-aos-delay="650">
+                                    <i class="fas fa-check-circle"></i>
+                                    Représenter la Côte d’Ivoire au sein des organisations continentales et internationales
+                                </li>
+                                <li data-aos="fade-up" data-aos-delay="700">
+                                    <i class="fas fa-check-circle"></i>
+                                    Contribuer à la cohésion sociale, à la santé et au tourisme sportif
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+    </section>
+
+
+        <!--======== / Nos Objectifs ========-->
 
         <!--==============================
     Team Area
     ==============================-->
-        <section class="team-area-1 pt-120 pb-120 gray-bg section-radius position-relative">
+        <!-- <section class="team-area-1 pt-120 pb-120 gray-bg section-radius position-relative">
             <div class="team-bg-shape3-1 d-xl-block d-none">
                 <img src="assets/img/bg/team-bg-shape3-1.png" alt="img">
             </div>
@@ -234,13 +317,11 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <!--======== / Team Section ========-->
+        </section> -->
+    <!--======== / Team Section ========-->
 
-        <!--==============================
-    Goal Area
-    ==============================-->
-        <section class="goal-area-1 pt-120 pb-120 overflow-hidden">
+        <!--============================== Goal Area==============================-->
+        <!-- <section class="goal-area-1 pt-120 pb-120 overflow-hidden">
             <div class="container">
                 <div class="row gx-40 gy-5 justify-content-center align-items-center">
                     <div class="col-xl-6">
@@ -298,7 +379,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!--======== / Goal Section ========-->
 
     </main>

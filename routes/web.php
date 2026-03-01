@@ -42,8 +42,23 @@ Route::get('/', [MainController::class, 'index'])->name('index');
 
 Route::prefix('main')->name('main.')->group(function () {
     Route::get('/index', [MainController::class, 'index'])->name('index');
-    Route::get('/contact', [MainController::class, 'contact'])->name('contact');
+    
     Route::get('/about', [MainController::class, 'about'])->name('about');
+        Route::get('/mot-presidente', [MainController::class, 'motPresidente'])->name('mot_presidente');
+        Route::get('/membres', [MainController::class, 'membres'])->name('membres');
+        Route::get('/statuts-reglements', [MainController::class, 'statuts'])->name('statuts');
+        Route::get('/documents', [MainController::class, 'documents'])->name('documents');
+
+    Route::get('/evenements', [MainController::class, 'evenements'])->name('evenements');
+    
+    Route::get('/phototheque', [MainController::class, 'phototheque'])->name('phototheque');
+    Route::get('/videotheque', [MainController::class, 'videotheque'])->name('videotheque');
+
+    Route::get('/secteurs', [MainController::class, 'secteurs'])->name('secteurs');
+    Route::get('/clubs', [MainController::class, 'clubs'])->name('clubs');
+    
+
+    Route::get('/contact', [MainController::class, 'contact'])->name('contact');
 
 
     // Route::get('/liste_exercice', [AdminController::class, 'liste_exercice'])->name('exercice');
