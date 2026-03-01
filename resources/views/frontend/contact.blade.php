@@ -9,7 +9,7 @@
         <!--==============================
         Breadcrumb Area
         ==============================-->
-        <section class="breadcrumb__area fix" data-background="{{ asset('frontend/assets/img/bg/breadcrumb-bg.png') }}">
+        <section class="breadcrumb__area fix" data-background="{{ asset('frontend/assets/img/service/IMG-20260201-WA0050.png') }}">
             <div class="breadcrumb__bg-shape"></div>
             <div class="container">
                 <div class="row align-items-center">
@@ -54,11 +54,13 @@
                                                 <input type="text" class="form-control style-white" name="name" id="name" placeholder="Votre Nom">
                                             </div>
                                         </div>
+
                                         <div class="col-lg-6">
                                             <div class="form-group">
                                                 <input type="text" class="form-control style-white" name="email" id="email" placeholder="Votre Email">
                                             </div>
                                         </div>
+                                        
                                         <div class="col-12">
                                             <div class="form-group">
                                                 <input type="text" class="form-control style-white" name="objet" id="objet" placeholder="Objet">
@@ -70,6 +72,7 @@
                                                 <textarea name="message" placeholder="Votre Message" id="contactForm" class="form-control style-white"></textarea>
                                             </div>
                                         </div>
+
                                     </div>
                                     <button type="submit" class="btn mt-30">
                                         <span class="btn-text" data-text="Envoyer"></span>
@@ -85,12 +88,20 @@
 
         <!-- contact-map -->
         <div class="contact-map-area pt-120 pb-120">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48409.69813174607!2d-74.05163325136718!3d40.68264649999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25bae694479a3%3A0xb9949385da52e69e!2sBarclays%20Center!5e0!3m2!1sen!2sbd!4v1684309529719!5m2!1sen!2sbd" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe 
+                    src="https://www.google.com/maps?q=Abidjan&output=embed"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+
             <div class="container">
                 <div class="contact-info-wrap">
                     <div class="contact-info-thumb">
-                        <img src="{{ asset('frontend/assets/img/others/contact-page1-1.jpg') }}" alt="img">
+                        <img src="{{ asset('frontend/assets/img/others/contact-page1-1.jpg') }}" alt="FIRAPE">
                     </div>
+
                     <ul class="list-wrap">
                         <li>
                             <div class="contact-info-card">
@@ -98,37 +109,41 @@
                                     <i class="fas fa-phone-alt"></i>
                                 </div>
                                 <div class="media-body">
-                                    <p>Call Us 24/7</p>
-                                    <h4>+584 (25) 21453</h4>
+                                    <p>Téléphone</p>
+                                    <h4>(+225) 27 21 54 44 03</h4>
                                 </div>
                             </div>
                         </li>
+
                         <li>
                             <div class="contact-info-card">
                                 <div class="contact-info-icon">
                                     <i class="fas fa-envelope-open-text"></i>
                                 </div>
                                 <div class="media-body">
-                                    <p>Make a Quote</p>
-                                    <h4>info@help-valom.com</h4>
+                                    <p>Email</p>
+                                    <h4>firape2015@gmail.com</h4>
                                 </div>
                             </div>
                         </li>
+
                         <li>
                             <div class="contact-info-card">
                                 <div class="contact-info-icon">
                                     <i class="fas fa-map-marked-alt"></i>
                                 </div>
                                 <div class="media-body">
-                                    <p>Service Station</p>
-                                    <h4>25 Hilton Street, Aus.</h4>
+                                    <p>Siège</p>
+                                    <h4>Abidjan – Côte d’Ivoire</h4>
                                 </div>
                             </div>
                         </li>
                     </ul>
+
                 </div>
             </div>
         </div>
+
         <!-- contact-map-end -->
 
     </main>

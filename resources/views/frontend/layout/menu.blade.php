@@ -24,18 +24,22 @@
 
                                     <li class="active"><a href="{{ route('main.index') }}">ACCUEIL</a></li>
 
-                                    <li class="menu-item-has-children "><a href="javascript:void(0) ">QUI SOMMES-NOUS ?</a>
-                                        <ul class="sub-menu ">
-                                            <li class="active"><a href="{{ route('main.about') }}">Présentation</a></li>
-                                            <li><a href="#">Mot de la présidente</a></li>
-                                            <li><a href="#">Objectifs</a></li>
-                                            <li><a href="team.html">Membres</a></li>
-                                            <li><a href="#">Status et Reglement</a></li>
-                                            <li><a href="#">Documents</a></li>
+                                    <li class="menu-item-has-children">
+                                        <a href="javascript:void(0)">QUI SOMMES-NOUS ?</a>
+                                        <ul class="sub-menu">
+                                            <!-- Scroll interne sur la page about -->
+                                            <li><a href="{{ route('main.about') }}#presentation">Présentation</a></li>
+                                            <li><a href="{{ route('main.about') }}#objectifs">Objectifs</a></li>
+
+                                            <!-- Pages séparées -->
+                                            <li><a href="{{ route('main.mot_presidente') }}">Mot de la Présidente</a></li>
+                                            <li><a href="{{ route('main.membres') }}">Membres</a></li>
+                                            <li><a href="{{ route('main.statuts') }}">Statuts & Règlements</a></li>
+                                            <li><a href="{{ route('main.documents') }}">Documents</a></li>
                                         </ul>
                                     </li>
 
-                                    <li><a href="#">EVENEMENTS</a></li>
+                                    <li><a href="{{ route('main.evenements') }}">EVENEMENTS</a></li>
                                     <!-- <li class="menu-item-has-children "><a href="javascript:void(0) ">ACTIVITE</a>
                                         <ul class="sub-menu ">
                                             <li><a href="service.html ">Services</a></li>
@@ -45,22 +49,18 @@
 
                                     <li class="menu-item-has-children "><a href="javascript:void(0) ">ANNUAIRE</a>
                                         <ul class="sub-menu ">
-                                            <li><a href="blog.html ">Secteurs</a></li>
-                                            <li><a href="blog-2.html ">Clubs</a></li>
+                                            <li><a href="{{ route('main.secteurs') }}">Secteurs</a></li>
+                                            <li><a href="{{ route('main.clubs') }}">Clubs</a></li>
                                             <li><a href="blog-2.html ">Ligues</a></li>
                                             <li><a href="blog-details.html ">Résultats</a></li>
                                         </ul>
                                     </li>
 
-                                    <li class="menu-item-has-children "><a href="javascript:void(0) ">GALERIE</a>
-                                        <ul class="sub-menu ">
-                                            <li><a href="project.html ">Photothèque</a></li>
-                                            <li><a href="project-details.html ">Vidéothèque</a></li>
-                                            <!-- <li><a href="team.html ">Team Page</a></li>
-                                            <li><a href="team-details.html ">Team Details</a></li>
-                                            <li><a href="pricing.html ">Pricing</a></li>
-                                            <li><a href="appointment.html ">Appointment</a></li>
-                                            <li><a href="error.html ">404 Page</a></li> -->
+                                    <li class="menu-item-has-children">
+                                        <a href="javascript:void(0)">GALERIE</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="{{ route('main.phototheque') }}">Photothèque</a></li>
+                                            <li><a href="{{ route('main.videotheque') }}">Vidéothèque</a></li>
                                         </ul>
                                     </li>
 

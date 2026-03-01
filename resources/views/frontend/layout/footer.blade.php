@@ -11,7 +11,7 @@
                         </h3>
                     </div>
                     <div class="col-auto ">
-                        <a href="contact.html " class="btn btn-three ">
+                        <a href="{{ route('main.contact') }}" class="btn btn-three ">
                             <span class="btn-text " data-text="PARTAGER VOTRE EXPÉRIENCE "></span>
                         </a>
                     </div>
