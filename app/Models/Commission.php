@@ -5,7 +5,6 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Model;
 use App\Models\Personne;
 
-
 class Commission extends Model
 {
     protected $primaryKey = 'id_commission';
@@ -14,6 +13,9 @@ class Commission extends Model
         'nom_commission'
     ];
 
+    /**
+     * Relation avec les personnes (membres de la commission)
+     */
     public function personnes()
     {
         return $this->belongsToMany(
@@ -23,5 +25,20 @@ class Commission extends Model
             'id_personne'
         );
     }
-}
 
+    /**
+     * Compter le nombre de membres
+     */
+    public function countMembres()
+    {
+        return $this->personnes()->count();
+    }
+
+    /**
+     * Vérifier si la commission possède au moins un membre
+     */
+    public function hasMembres()
+    {
+        return $this->personnes()->exists();
+    }
+}
